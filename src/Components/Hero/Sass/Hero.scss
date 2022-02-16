@@ -1,0 +1,23 @@
+#Hero {
+    height: 100vh;
+
+    @media only screen and (max-width: 576px) {
+        & {
+            height: auto;
+        }
+    }
+
+    .bounce {
+        animation: Bounce 1s ease-in-out infinite alternate-reverse both;
+    }
+
+    @keyframes Bounce {
+        0% {
+            transform: translateY(5px);
+        }
+
+        100% {
+            transform: translateY(-5px);
+        }
+    }
+}

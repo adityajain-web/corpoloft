@@ -1,0 +1,7 @@
+.mediaObject {
+    & .MuiIcon-root {
+        & svg {
+            vertical-align: top;
+        }
+    }
+}

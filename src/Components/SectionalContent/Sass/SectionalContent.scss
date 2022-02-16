@@ -1,0 +1,41 @@
+.sectionalContent {
+    & .subTitle {
+        position: relative;
+        padding-left: 5.938rem;
+        display: inline-block;
+        line-height: 1.75rem;
+        font-size: 0.875rem;
+        letter-spacing: 0.063rem;
+        font-weight: 600;
+        color: #03228f !important;
+        text-transform: uppercase;
+        margin-bottom: 0.625rem;
+
+        &.style4-bg {
+            color: #03228f;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.75rem;
+            height: 0.25rem;
+            width: 0.75rem;
+            background-color: #03228f;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            border: 0;
+            height: 0.25rem;
+            width: 3.125rem;
+            background-color: #03228f;
+            z-index: 1;
+            margin-left: 0;
+            left: 1.5rem;
+            top: 0.75rem;
+        }
+    }
+}

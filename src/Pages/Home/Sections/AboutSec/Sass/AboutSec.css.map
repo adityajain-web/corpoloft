@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEI,SAFK,CAEH,aAAa;AAFnB,SAAS,CAGH,gBAAgB,CAAC;EACf,SAAS,EAAE,MAAM;CACpB",
+    "sources": [
+        "AboutSec.scss"
+    ],
+    "names": [],
+    "file": "AboutSec.css"
+}

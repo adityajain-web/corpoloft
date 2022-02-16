@@ -1,0 +1,36 @@
+#Hero {
+  height: 100vh;
+}
+
+@media only screen and (max-width: 576px) {
+  #Hero {
+    height: auto;
+  }
+}
+
+#Hero .bounce {
+  animation: Bounce 1s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes Bounce {
+  0% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  100% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+}
+
+@keyframes Bounce {
+  0% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  100% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+}
+/*# sourceMappingURL=Hero.css.map */
